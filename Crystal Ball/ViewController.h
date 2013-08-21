@@ -14,6 +14,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong, nonatomic) NSArray *predictionArray;
 
-- (IBAction)buttonPressed:(id)sender;
+- (void) makePrediction;
 
 @end
